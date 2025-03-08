@@ -1,4 +1,4 @@
-#Essay Score Predictor
+####Essay Score Predictor
 
 # Overview
 The Essay Score Predictor is a Flask-based web application that predicts the quality score of an essay using a trained Machine Learning model. The system preprocesses user input, extracts key text features, and then uses a pre-trained model to generate a score.
