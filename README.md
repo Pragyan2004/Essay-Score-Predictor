@@ -41,8 +41,11 @@ script.js: Real-time word & character count updates.
 style.css: Responsive design and styling.
 
 # Usage
+
 Paste or upload an essay
+
 Click "Predict Score"
+
 View detailed analysis & score
 
 # Screenshot
