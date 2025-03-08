@@ -36,6 +36,8 @@ Displays results on result.html.
 
 index.html: UI for essay input and file upload.
 
+result.html: UI for output.
+
 script.js: Real-time word & character count updates.
 
 style.css: Responsive design and styling.
