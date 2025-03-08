@@ -1,0 +1,146 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif; 
+    background-color: #f8f8f8; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.subtitle {
+    font-size: 1.1em;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.input-area {
+    text-align: left;
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.primary-btn, .secondary-btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.primary-btn {
+    background-color: #3498db;
+    color: white;
+}
+
+.primary-btn:hover {
+    background-color: #2980b9;
+}
+
+.secondary-btn {
+    background-color: #e7e7e7;
+    color: #333;
+}
+
+.secondary-btn:hover {
+    background-color: #d1d1d1;
+}
+
+.file-upload {
+    margin-bottom: 20px;
+}
+
+.file-label {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+.result-page .container {
+    text-align: left;
+}
+
+.result-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.result-item {
+    margin-bottom: 15px;
+}
+
+.result-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.result-value {
+    font-size: 1em;
+    margin: 0;
+}
+
+.result-value.score {
+    font-size: 1.5em;
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #34495e;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.back-button:hover {
+    background-color: #2c3e50;
+}

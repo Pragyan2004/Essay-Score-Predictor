@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container result-page">
+        <div class="header">
+            <h1>Prediction Result</h1>
+        </div>
+        <div class="result-box">
+            <div class="result-item">
+                <span class="result-label">Essay:</span>
+                <p class="result-value">{{ essay }}</p>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Predicted Score:</span>
+                <p class="result-value score">{{ score }}</p>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Word Count:</span>
+                <p class="result-value">{{ words }}</p>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Character Count:</span>
+                <p class="result-value">{{ chars }}</p>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Sentence Count:</span>
+                <p class="result-value">{{ sentences }}</p>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Paragraph Count:</span>
+                <p class="result-value">{{ paragraphs }}</p>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Average Word Length:</span>
+                <p class="result-value">{{ avg_word_length }}</p>
+            </div>
+        </div>
+        <a href="/" class="back-button">Go Back</a>
+    </div>
+</body>
+</html>

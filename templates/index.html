@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essay Score Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Essay Score Predictor</h1>
+        </div>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <div class="input-area">
+                <textarea id="essay" name="essay" placeholder="Enter your essay here..." required></textarea>
+                <div class="info-box">
+                    <p id="word-count">Word Count: 0</p>
+                    <p id="char-count">Character Count: 0</p>
+                </div>
+            </div>
+            <div class="file-upload">
+                <label for="file-input" class="file-label">Upload Text File</label>
+                <input type="file" id="file-input" accept=".txt" style="display: none;">
+                <button type="button" id="sample-btn" class="secondary-btn">Use Sample Essay</button>
+            </div>
+            <button type="submit" class="primary-btn">Predict Score</button>
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
